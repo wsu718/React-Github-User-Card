@@ -5,7 +5,7 @@ const FollowerList = props => {
     return (
     <div className='followers'>
         {props.gitHubFollowers.map(follower => (
-            <FollowerCard follower={follower}/>
+            <FollowerCard follower={follower} key={follower.id}/>
         ))}
     </div>
     )

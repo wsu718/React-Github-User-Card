@@ -43,3 +43,8 @@
   margin: 2%;
   /* border: 1px black solid; */
 }
+
+.search {
+  background-color: lightgoldenrodyellow;
+  padding: 0% 10% 3% 10%;
+}
